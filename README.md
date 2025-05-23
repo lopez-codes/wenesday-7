@@ -54,3 +54,14 @@ Command:"@w" as ChatGPT and Bing prompt.
 If you would like to contribute to the project, please submit a pull request with your changes. We welcome all contributions!
 # free-wenesday-free
 -- Community-free-Version of WenesdayOS: 1.2.3
+
+## Simple C++ Example for Arch Linux
+
+The `right` directory includes `beginner_program.cpp`, a minimal C++ program. On Arch Linux (or in a virtual machine/hypervisor), compile it with:
+
+```bash
+g++ right/beginner_program.cpp -o beginner_program
+./beginner_program
+```
+
+You should see the greeting `Hello from Wenesday C++!` printed to your terminal. This small example helps verify that a basic C++ toolchain is working.
