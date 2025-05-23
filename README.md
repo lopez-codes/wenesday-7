@@ -54,3 +54,27 @@ Command:"@w" as ChatGPT and Bing prompt.
 If you would like to contribute to the project, please submit a pull request with your changes. We welcome all contributions!
 # free-wenesday-free
 -- Community-free-Version of WenesdayOS: 1.2.3
+
+## Repository Overview for Beginners
+
+The project contains many experimental folders. Key locations:
+
+- `back/ONE` – third-party projects including the Unreal Engine `OpenAIApi` plugin. See `back/ONE/OpenAIApi/README.md` for setup instructions.
+- `front/CPU` – JavaScript tools to record and replay mouse clicks.
+- `bin` – sample scripts such as a small OpenAI API example in Python.
+- `right` – beginner-friendly examples. Start with `right/beginner_program.py` and the README in that folder.
+
+To verify your environment, run:
+
+```bash
+cd right
+python beginner_program.py
+```
+
+This should print:
+
+```
+Hello from Wenesday!
+```
+
+Knowledge of Git, JavaScript/Node.js and Python will help you explore the rest of the project.
