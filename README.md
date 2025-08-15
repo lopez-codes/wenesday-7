@@ -65,3 +65,32 @@ g++ right/beginner_program.cpp -o beginner_program
 ```
 
 You should see the greeting `Hello from Wenesday C++!` printed to your terminal. This small example helps verify that a basic C++ toolchain is working.
+
+## Repository Overview for Beginners
+
+The project contains many experimental folders. Key locations:
+
+- `back/ONE` – third-party projects including the Unreal Engine `OpenAIApi` plugin. See `back/ONE/OpenAIApi/README.md` for setup instructions.
+- `front/CPU` – JavaScript tools to record and replay mouse clicks.
+- `bin` – sample scripts such as a small OpenAI API example in Python.
+- `right` – beginner-friendly examples. Start with `right/beginner_program.py` and the README in that folder.
+- `arch` – resources for setting up an Arch Linux environment tailored for AI development.
+
+To verify your environment, run:
+
+```bash
+cd right
+python beginner_program.py
+```
+
+This should print:
+
+```
+Hello from Wenesday!
+```
+
+Knowledge of Git, JavaScript/Node.js and Python will help you explore the rest of the project.
+
+## Arch Linux for AI Development
+
+The `arch` folder provides scripts and documentation to transform a minimal Arch Linux installation into a development workstation for machine learning. Follow the steps in `arch/README.md` and run `arch/install_ai_packages.sh` to install Python and common libraries such as TensorFlow and PyTorch. The docs also show how to install the GRUB bootloader and the GNOME desktop so the system works well as a regular OS.
